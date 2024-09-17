@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Swagger Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+        .welcome-message {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        
+        .button:hover {
+            background-color: #3e8e41;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            }
+
+            .feature-list li {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+            transition: background-color 0.3s ease;
+            }
+
+            .feature-list li:hover {
+            background-color: #e0e0e0;
+            }
+
+            .feature-list li i {
+            margin-right: 10px;
+            font-size: 18px;
+            vertical-align: middle;
+            }
+
+            .feature-list li::before {
+            content: "\2022";
+            font-size: 20px;
+            color: #4CAF50;
+            margin-right: 10px;
+            font-weight: bold;
+            }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="welcome-message">Auth Backend App</p>
+        <button class="button" onclick="location.href='/api-docs'">Explore API Documentation</button>
+        <h4>Desc : This project is Email Verification, Password Recovery, and Welcome Emails
+            <br>
+            <br>
+            Made using NodeJS and Express Backend   </h4>
+
+        <h2>Features</h2>
+        <ul class="feature-list">
+            <li><i class="fas fa-lock"></i> 🔐 Signup Endpoint</li>
+            <li><i class="far fa-envelope"></i> 📧 Sending Verify Account Email</li>
+            <li><i class="fas fa-magnifying-glass"></i> 🔍 Verify Email Endpoint</li>
+            <li><i class="far fa-file-alt"></i> 📄 Building a Welcome Email Template</li>
+            <li><i class="fas fa-sign-out-alt"></i> 🚪 Logout Endpoint</li>
+            <li><i class="fas fa-key"></i> 🔑 Login Endpoint</li>
+            <li><i class="fas fa-question-circle"></i> 🔄 Forgot Password Endpoint</li>
+            <li><i class="fas fa-sync-alt"></i> 🔁 Reset Password Endpoint</li>
+            <li><i class="fas fa-check-circle"></i> ✔ Check Auth Endpoint</li>
+          </ul>
+          <h6>Auth API Information using Nodejs and Swagger UI \n Build with ♥ by Milind</h6>
+    </div>
+</body>
+</html>
