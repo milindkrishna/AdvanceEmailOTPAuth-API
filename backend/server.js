@@ -19,7 +19,7 @@ app.use(express.static('public'));
 // Swagger options
 const swaggeroptions = {
     definition: {
-     openapi: "3.1.0",
+    //  openapi: "3.1.0",
       info: {
         title: "Auth API",
         version: "1.0.0",
